@@ -201,9 +201,6 @@ h2 {
   --animation-fill-color: red;
   --main-heart: red;
   --name: red;
-}
-
-.like-icon.is-liked {
   animation: scaling 0.3s 0.1s ease-in, 
   sparksing 0.3s 0.3s ease-in;
 }
@@ -238,7 +235,7 @@ h2 {
   block-size: 38px;
   background-color: inherit;
   border: 2px solid var(--text-color, #000);
-  transition: box-shadow 0.3s ease; 
+  transition: box-shadow 0.3s ease;
   position: relative;
 }
 
@@ -256,13 +253,13 @@ button::before {
   height: 100%;
   background-color: var(--text-color, #000);
   z-index: 2;
-  transform: scaleX(0);           
-  transform-origin: left;         
+  transform: scaleX(0);
+  transform-origin: left;
   transition: transform 0.5s ease-in-out;
 }
 
 button:hover::before {
-  transform: scaleX(1);          
+  transform: scaleX(1);
 }
 
 .button__text {

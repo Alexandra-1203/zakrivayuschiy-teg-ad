@@ -32,7 +32,7 @@
         <li class="card one">
           <h3 class="card_title">Фритрек и нулевой спринт: Подготовка к работе</h3>
           <div class="card_wrapper">
-            <img src="./images/Happy Very Funny GIF by Disney Zootopia.gif" alt="ленивец радостный" class="card_img  card-img--happy"/>
+            <img src="./images/HappyVeryFunnyGIFbyDisneyZootopia.gif" alt="ленивец радостный" class="card_img  card-img--happy"/>
             <p class="card_label">&lt;/HTML&gt;</p>
           </div>
           <div class="card_discription">
@@ -53,7 +53,7 @@
         <li class="card two">
           <h3 class="card_title">1 спринт: Я — чистый лист</h3>
           <div class="card_wrapper">
-            <img src="./images/walt disney animation studios lol GIF by Disney.gif" alt="кролик с лисом" class="card_img card-img--retro"/>
+            <img src="./images/waltdisneyanimationstudioslolGIFbyDisney.gif" alt="кролик с лисом" class="card_img card-img--retro"/>
             <p class="card_label">&lt;/HTML&gt;</p>
           </div>
           <div class="card_discription">
@@ -74,7 +74,7 @@
         <li class="card three">
           <h3 class="card_title">1 спринт: А если не получится?</h3>
           <div class="card_wrapper">
-            <img src="./images/disney animation GIF by Disney Zootopia.gif" alt="лис и слон" class="card_img card-img--mystery"/>
+            <img src="./images/disneyanimationGIFbyDisneyZootopia.gif" alt="лис и слон" class="card_img card-img--mystery"/>
             <p class="card_label">&lt;/CSS&gt;</p>
           </div>
           <div class="card_discription">
@@ -95,7 +95,7 @@
         <li class="card four">
           <h3 class="card_title">2 спринт: Погоня за идеалом</h3>
           <div class="card_wrapper">
-            <img src="./images/jason bateman trailer GIF by Walt Disney Animation Studios.gif" alt="в тачке" class="card_img card-img--sad"/>
+            <img src="./images/jasonbatemantrailerGIFbyWaltDisneyAnimationStudios.gif" alt="в тачке" class="card_img card-img--sad"/>
             <p class="card_label">&lt;/desigions&gt;</p>
           </div>
           <div class="card_discription">
@@ -116,7 +116,7 @@
         <li class="card five">
           <h3 class="card_title">2 спринт: О тех, кто рядом</h3>
           <div class="card_wrapper">
-            <img src="./images/judy hopps shakira GIF by Disney.gif" alt="лис и кролик" class="card_img card-img--vintage"/>
+            <img src="./images/judyhoppsshakiraGIFbyDisney.gif" alt="лис и кролик" class="card_img card-img--vintage"/>
             <p class="card_label">care</p>
           </div>
           <div class="card_discription">
@@ -137,7 +137,7 @@
         <li class="card six">
           <h3 class="card_title">3 спринт: Обходные стратегии</h3>
           <div class="card_wrapper">
-            <img src="./images/Jason Bateman Fist Bump GIF by Walt Disney Animation Studios.gif" alt="кролик и носорог" class="card_img card-img--neon"/>
+            <img src="./images/JasonBatemanFistBumpGIFbyWaltDisneyAnimationStudios.gif" alt="кролик и носорог" class="card_img card-img--neon"/>
             <p class="card_label">&lt;support&gt;</p>
           </div>
           <div class="card_discription">
@@ -158,7 +158,7 @@
         <li class="card seven">
           <h3 class="card_title">3 спринт: Когда опускаются руки</h3>
           <div class="card_wrapper">
-            <img src="./images/judy hopps donut GIF by Disney.gif" alt="пончик" class="card_img card-img--romantic"/>
+            <img src="./images/judyhoppsdonutGIFbyDisney.gif" alt="пончик" class="card_img card-img--romantic"/>
             <p class="card_label">&lt;lifes-style: none;&gt;</p>
           </div>
           <div class="card_discription">
@@ -179,7 +179,7 @@
         <li class="card eight">
           <h3 class="card_title">«Сейчас я здесь»</h3>
           <div class="card_wrapper">
-            <img src="./images/jason bateman trailer GIF by Walt Disney Animation Studios (1).gif" alt="кролик в городе" class="card_img card-img--dramatic"/>
+            <img src="./images/jasonbatemantrailerGIFbyWaltDisneyAnimationStudios(1).gif" alt="кролик в городе" class="card_img card-img--dramatic"/>
             <span class="card_label">&lt;experience&gt;</span>
           </div>
           <div class="card_discription">
@@ -284,7 +284,7 @@
       </symbol>
     </svg>
     <footer>
-      <button type="button" class="save-button" onclick="window['modal'].showModal()">
+      <button type="button" class="save-button" onclick="event.preventDefault(); event.stopPropagation(); window['modal'].showModal()">
         <svg class="save-icon" width="21" height="21" viewBox="0 0 39 39">
           <use href="#floppy"/>
         </svg>
@@ -298,7 +298,7 @@
           <p class="button__text">Вставьте
 дискету, чтобы продолжить</p>
         </div>
-        <button type="button" class="modal__button" onclick="window['modal'].close()">
+        <button type="button" class="modal__button" onclick="event.preventDefault(); event.stopPropagation(); window['modal'].close(); return false;">
           <span class="button__text">Ок</span>
         </button>
       </dialog>
