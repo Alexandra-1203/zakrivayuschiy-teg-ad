@@ -39,3 +39,15 @@ function setButtonText(heart, button) {
     );
   }
 }
+
+document.addEventListener('submit', function(e) {
+    e.preventDefault();
+    return false;
+  });
+  
+
+window.addEventListener('keydown', function(e) {
+  if (e.key === 'F5' || (e.ctrlKey && e.key === 'r')) {
+    e.preventDefault();
+  }
+});
