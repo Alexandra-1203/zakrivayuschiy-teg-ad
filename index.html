@@ -296,9 +296,11 @@
           </svg>
           <p class="button__text">Вставьте дискету, чтобы продолжить</p>
         </div>
-        <button type="button" class="modal__button" onclick="event.preventDefault(); event.stopPropagation(); window['modal'].close(); return false;">
-          <span class="button__text">Ок</span>
-        </button>
+        <form method="dialog" class="form">
+          <button type="button" class="modal__button" onclick="event.preventDefault(); event.stopPropagation(); window['modal'].close(); return false;">
+            <span class="button__text">Ок</span>
+          </button>
+        </form>
       </dialog>
     </footer>
     <script src="./scripts/like.js"></script>
