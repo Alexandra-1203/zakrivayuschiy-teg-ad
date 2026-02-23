@@ -1,1 +1,1 @@
-https://github.com/Alexandra-1203/zakrivayuschiy-teg-ad
+https://alexandra-1203.github.io/zakrivayuschiy-teg-ad/

@@ -87,7 +87,7 @@ h2 {
 }
 
 .card-img--neon {
-  filter: invert(0.3) hue-rotate(180deg) saturate(3) brightness(1.2);
+  filter: saturate(1.2) brightness(0.7);
 }
 
 .card-img--romantic {
