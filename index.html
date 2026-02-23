@@ -283,7 +283,7 @@
       </symbol>
     </svg>
     <footer>
-      <button id="btnData" type="button" class="save-button" onclick="event.preventDefault(); event.stopPropagation(); window['modal'].showModal()">
+      <button type="button" class="save-button" onclick="event.preventDefault(); event.stopPropagation(); window['modal'].showModal()">
         <svg class="save-icon" width="21" height="21" viewBox="0 0 39 39">
           <use href="#floppy"/>
         </svg>
@@ -295,12 +295,10 @@
             <use href="#floppy"/>
           </svg>
           <p class="button__text">Вставьте дискету, чтобы продолжить</p>
-        </div>
-        <form method="dialog" class="form">
-          <button id="btData" type="button" class="modal__button" onclick="event.preventDefault(); event.stopPropagation(); window['modal'].close(); return false;">
-            <span class="button__text">Ок</span>
-          </button>
-        </form>
+        </div>    
+        <button type="button" class="modal__button" onclick="event.preventDefault(); event.stopPropagation(); window['modal'].close(); return false;">
+          <span class="button__text">Ок</span>
+        </button>
       </dialog>
     </footer>
     <script src="./scripts/like.js"></script>

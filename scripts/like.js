@@ -42,16 +42,3 @@ function setButtonText(heart, button) {
 
 
 
-$('#btnData').click(function(e){
-   e.preventDefault();
-   // Code goes here
-window['modal'].showModal(); // your onclick function call here
-
-});
-
-$('#btData').click(function(e){
-   e.preventDefault();
-   // Code goes here
-window['modal'].close(); // your onclick function call here
-
-});
