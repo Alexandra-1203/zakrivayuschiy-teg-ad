@@ -324,6 +324,10 @@ button:hover::before {
   position: relative;
 }
 
+.modal__button:focus-visible {
+  outline: none;
+}
+
 dialog::backdrop {
   background-color: rgba(0, 0, 0, 0.5);
   backdrop-filter: blur(4px);
